@@ -1,0 +1,96 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Màn hình ASUS PG278Q 27 inch 144Hz",
+      "img": "https://res.cloudinary.com/dkhutgvlb/image/upload/v1644467804/banner1_cxqs3q.jpg",
+      "price": "5.000.000"
+    },
+    {
+      "title": "MSI Announces GeForce GTX 770",
+      "img": "https://res.cloudinary.com/dkhutgvlb/image/upload/v1644491318/sp2_aaek8z.jpg",
+      "price": "3.500.000",
+      "id": "2"
+    },
+    {
+      "id": "uwIYtz5",
+      "title": "aaaaaaa",
+      "img": "http://res.cloudinary.com/dkhutgvlb/image/upload/v1645380032/qf3bdwcez7ghhulxn4i8.jpg",
+      "price": "123333"
+    }
+  ],
+  "users": [
+    {
+      "email": "sangldph15358@fpt.edu.vn",
+      "password": "$2a$10$D84dt9FPqljViT0tMglF1euWnrNJouB9WIM4xQWv19kBz6Yu88Mvm",
+      "username": "Sangldph15358",
+      "id": 1
+    },
+    {
+      "email": "luongduysang2k2@gmail.com",
+      "password": "$2a$10$g5fUXIncniAHcZShgsMYh.jXWSkK2htvIaJKck8ZAtl.t8ntGVv0i",
+      "username": "danluong2k2",
+      "id": 2
+    },
+    {
+      "email": "sangthuy0601@gmail.com",
+      "password": "$2a$10$jBBy6T2HDILZ8S/21KLuDeK8QejKbKNu5e8Gk8FMH0R9837U1MTfe",
+      "username": "admin",
+      "id": 3
+    },
+    {
+      "email": "sangldph15358@gmail.com",
+      "password": "$2a$10$xzv110J/5Or5FzyEa7mbq.6MAbNrLx06rdiVrcqyKEQEZ4sQ/8i6i",
+      "username": "phuc_kieu",
+      "id": 4
+    },
+    {
+      "email": "aaaaaa@gmail.com",
+      "password": "$2a$10$Mku6/luEoi08JG//BVi9HuOq2rQVUkSRxR4bArKEY8nltqyx0QCsu",
+      "username": "aaa",
+      "id": 5
+    },
+    {
+      "email": "thuy@gmail.com",
+      "password": "$2a$10$VEPLgB1xjCbuSN0lpeFXcOqB5FEKCCiI.4kPEFzAmul17FrwyX3uG",
+      "username": "thuythuy",
+      "id": 6
+    }
+  ],
+  "posts": [
+    {
+      "createdAt": "2022-01-10T14:22:10.945Z",
+      "title": "Esther Morar",
+      "img": "http://placeimg.com/640/480/nightlife",
+      "desc": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "id": "11"
+    },
+    {
+      "createdAt": "2022-01-10T11:38:45.275Z",
+      "title": "Sonya Prohaska Sr.",
+      "img": "http://placeimg.com/640/480/food",
+      "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "id": "12"
+    },
+    {
+      "createdAt": "2022-01-10T14:45:44.448Z",
+      "title": "Levi Turcotte",
+      "img": "http://placeimg.com/640/480/city",
+      "desc": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "id": "13"
+    },
+    {
+      "createdAt": "2022-01-10T06:52:23.902Z",
+      "title": "Eddie Crona",
+      "img": "http://placeimg.com/640/480/technics",
+      "desc": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "id": "14"
+    }
+  ],
+  "category": [
+    {
+      "title": "aaaa",
+      "id": 1
+    }
+  ]
+}
