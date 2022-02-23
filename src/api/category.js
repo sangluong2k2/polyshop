@@ -6,7 +6,7 @@ export const getAll = () => {
 }
 
 export const get = (id) => {
-    const url = `/category/${id}`;
+    const url = `/category/${id}?_embed=products`;
     return instance.get(url);
 }
 export const add = (category) => {

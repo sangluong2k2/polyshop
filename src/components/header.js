@@ -19,30 +19,26 @@ const Header = {
       </div>
 
       <!-- signin/signup -->
-        <div>
+      <div>
         <a href="#/signup"><button class="border p-[10px] font-bold my-[40px] mx-[30px] w-[100px] bg-[#57d7ff] text-white text-[17px] hover:bg-[#027bc6]">Đăng kí</button></a>
         <a href="#/signin"><button class="border p-[10px] font-bold my-[40px] mx-[20px] bg-[#57d7ff] text-white text-[17px] hover:bg-[#027bc6]">Đăng nhập</button></a>
       </div>
     </div>
-
+      
     <!-- nav -->
     <div class="bg-[#027bc6] grid grid-cols-2">
       <div>
-      <ul class="flex list-none">
-      <li class="p-[20px] text-white text-[17px] font-bold hover:bg-[#57d7ff]"><a class="block" href="#/">Trang chủ</a></li>
-      <li class="p-[20px] text-white text-[17px] font-bold hover:bg-[#57d7ff]"><a class="block" href="#/products">Sản phẩm</a></li>
-      <li class="p-[20px] text-white text-[17px] font-bold hover:bg-[#57d7ff]"><a class="block" href="#/news">Tin tức</a></li>
-      <li class="p-[20px] text-white text-[17px] font-bold hover:bg-[#57d7ff]"><a class="block" href="#/admin">Admin </a></li>
-      <li class="p-[20px] text-white text-[17px] font-bold hover:bg-[#57d7ff]"><a class="block" href="#/cart">Giỏ hàng</a></li>
-    </ul>
+        <ul class="flex list-none">
+          <li class="p-[20px] text-white text-[17px] font-bold hover:bg-[#57d7ff]"><a class="block" href="#/">Trang chủ</a></li>
+          <li class="p-[20px] text-white text-[17px] font-bold hover:bg-[#57d7ff]"><a class="block" href="#/products">Sản phẩm</a></li>
+          <li class="p-[20px] text-white text-[17px] font-bold hover:bg-[#57d7ff]"><a class="block" href="#/news">Tin tức</a></li>
+          <li class="p-[20px] text-white text-[17px] font-bold hover:bg-[#57d7ff]"><a class="block" href="#/admin">Admin </a></li>
+          <li class="p-[20px] text-white text-[17px] font-bold hover:bg-[#57d7ff]"><a class="block" href="#/cart">Giỏ hàng</a></li>
+        </ul>
       </div>
+    </div>
 
-      <div class="flex list-none ml-[650px]">
-      ${localStorage.getItem('user') ? `
-      <li class="p-[20px] text-white text-[17px] font-bold hover:bg-[#57d7ff]"><a class="block" id="account_email"> </a></li>
-      <li class="p-[20px] text-white text-[17px] font-bold hover:bg-[#57d7ff]"><a class="block cursor-pointer" id="logout">Logout</a></li>
-  `: ""}
-      </div>
+     
   </div>
         `;
     },
